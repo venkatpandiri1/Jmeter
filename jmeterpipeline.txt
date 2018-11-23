@@ -2,5 +2,4 @@ node('slave1') {
    stage 'Jmeter Test'
   pwd
   sh '/home/ubuntu/apache-jmeter-5.0/bin/jmeter.sh -n -t /home/ubuntu/apache-jmeter-5.0/bin/jmeterExampleTest1.jmx -l test.jtl'
-  dir("/home/ubuntu/apache-jmeter-5.0/bin")
-  }
+   }
