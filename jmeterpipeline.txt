@@ -1,5 +1,5 @@
 node{
 stage 'Jmeter Test'
 dir("/home/ubuntu/apache-jmeter-5.0/bin")
-sh '/home/ubuntu/apache-jmeter-5.0/bin/jmeter.sh -n -t /home/ubuntu/apache-jmeter-5.0/bin/jmeterExampleTest1.jmx -l test.jtl'
+sh './jmeter.sh -n -t jmeterExampleTest1.jmx -l test.jtl'
 }
